@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body{background-color: black;
+   height: 3000px;
+}
+.bg{
+    
+    height: 768px;
+    width: 1440px;
+    background-image: url(/images/Background.png);
+    position: relative;
+    z-index: 0  ;
+    opacity: 0.5001;
+}
+.header{
+   
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    position: absolute;
+  
+    height: 22px;
+    z-index: 1;
+    top: 10px;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0px 30px;
+    margin-top: 50px;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5.56%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.maintext{
+    top: 163px;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.logo{
+    position: absolute;
+    height: 43px;
+    width: 40px;
+    top: 45px;
+    left: 250px;
+    background-color: aliceblue;
+}
+.video1{
+    position: absolute;
+    top: 312px;
+    width: 555px;
+    height: 324px;
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/video-frame.png);
+    align-items: center;
+   
+}
+.playbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 72px;
+   background-color: aliceblue;
+   border-radius: 50px;
+    opacity: 0.6;
+}
+.playbtn i {
+    font-size: 25px;
+}
+
+.icons{
+    position: absolute;
+    top: 45px;
+    right: 250px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.icons li {
+    
+    height: 42px;
+    width: 42px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.scrolldown {
+    position: absolute;
+    bottom: 150px;
+    color: aliceblue;
+}
+.Advantages{
+    height: 768px;
+    width: 1440px;
+    background-color: white;
+    padding-top: 50px;
+    
+}
+.text2{
+   font-size: 44px; 
+   font-family: 'Roboto', sans-serif;
+}
+.content1{
+    padding: 0px 50px;
+    margin-top: 60px;
+    display: flex;
+}
+.textcontent1{
+    margin-top: 60px;
+    padding: 0px 100px;
+    width: 700px;
+}
+.textchild{
+    text-align: left;
+}
+.icons2 li {
+    height: 42px;
+    width: 42px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.icons2 {
+    display: flex;
+    left: 162px;
+    top: 1062px;
+    gap: 80px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -522px;
+    left: -562px;
+}
+.CTA {
+    width: 1440px;
+    height: 588px;
+    top: 1536px;
+    background-image: url(/images/background\ \(1\).png);
+}
