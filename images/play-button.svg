@@ -1,0 +1,6 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="play-button" opacity="0.74656">
+<path id="Play-bg" fill-rule="evenodd" clip-rule="evenodd" d="M36 72C55.8823 72 72 55.8823 72 36C72 16.1177 55.8823 0 36 0C16.1177 0 0 16.1177 0 36C0 55.8823 16.1177 72 36 72Z" fill="#F6F6F6"/>
+<path id="Play" fill-rule="evenodd" clip-rule="evenodd" d="M30 24V48L48 36L30 24Z" fill="#4B4B4B"/>
+</g>
+</svg>
